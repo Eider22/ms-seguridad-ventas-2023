@@ -1,4 +1,8 @@
-import {ApplicationConfig, App} from './application';
+import {config} from 'dotenv';
+import {App, ApplicationConfig} from './application';
+
+//configure dotenv
+config();
 
 export * from './application';
 
